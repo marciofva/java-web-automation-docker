@@ -14,7 +14,7 @@ WEB automation project
 
 
 
-###DOCKER
+## DOCKER
 
 ```
 sudo docker run -d -p 4444:4444 -e SE_NODE_MAX_SESSIONS=16 -e SE_NODE_OVERRIDE_MAX_SESSIONS=true --shm-size="2g" selenium/standalone-chrome:4.1.0-20211209
@@ -26,7 +26,7 @@ sudo docker run -d -p 4444:4444 -e SE_NODE_MAX_SESSIONS=16 -e SE_NODE_OVERRIDE_M
 
 
 
-###DOCKER-COMPOSE
+## DOCKER-COMPOSE
 
 ```
 sudo docker-compose up
@@ -42,7 +42,7 @@ sudo docker-compose down
 
 
 
-###Running Tests
+## Running Tests
 
 ```
 mvn clean test
@@ -50,7 +50,7 @@ mvn clean test
 
 
 
-###Accessing remote GRID 
+## Accessing remote GRID 
 
 ```
 http://localhost:4444/ui/index.html#/
@@ -58,7 +58,7 @@ http://localhost:4444/ui/index.html#/
 
 
 
-###DOCKERFILE
+## DOCKERFILE
 
 ```
 sudo docker build .
